@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Meu Primeiro Formulário</title>
+
+
+
+</head>
+<body>
+<h1>Formulário</h1>
+<form action="pagina2.html" method="POST">
+    <div>
+        <label>Nome</label>
+        <input type="text" name="nome" value="Ronny"/><br>
+    
+    </div>
+    <div>
+        <label>Estado civil</label>
+        <select id="ec" name="estado">
+            
+            <option value="solteiro">Solteiro</option>
+            <option value="casado">Casado</option>
+            <option value="viuvo">Viuvo</option>
+            <option value="divorciado">Divorciado</option>
+        </select>
+        <br>
+    </div>
+    <div>
+        <label>Email</label>
+        <input type="email" name="email"/>
+        <br>
+    </div>
+    <div>
+        <label>Mensagem</label>
+        <textarea id="msg">Valor padrão do textarea</textarea>
+        <br>
+    </div>
+    <div class="botao">
+        <button type="submit">Enviar</button>
+        <button type="reset">Reset</button>
+        <button type="button" onclick="validaforms()">Button</button>
+
+    </div>
+</form>
+</body>
+</html>
